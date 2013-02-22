@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Mastermind</title>
+        <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body bgcolor=#C4D2CF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 oncontextmenu="return false;">
+    <center><br><br><h1>Mastermind</h1>
+        <form name="theform">
+            <table cellspacing="2" cellpadding="2" border="0">
+                <tr>
+                    <td width="180">
+                    </td>
+                    <td align="center">
+                        <select name="difficulty">
+                            <option value="4">I want 4 colors</option>
+                            <option value="6">I want 6 colors</option>
+                            <option value="8" selected>I want 8 colors</option>
+                            <option value="10">I want 10 colors</option>
+                            <option value="12">I want 12 colors</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="button" value="Start" onClick="startGame(true);">
+                    </td>
+                    <td>
+                        <br>
+                    </td>
+                    <td width="178" align="right">
+                        <input type="button" value="Surrender" onClick="surrender();">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    <script language="Javascript" SRC="game.min.js"></script>
+    <script language="Javascript" SRC="rcmenu.js"></script>
+    <script language="Javascript">
+        preloadImages();
+        writeTable();
+        writemenu();
+    </script>
+    <br><br>
+</body>
+</html>

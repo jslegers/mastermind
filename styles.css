@@ -1,0 +1,26 @@
+
+h1{
+    FONT-FAMILY: Verdana,Arial,Helvetica;
+    color:#000000;
+    font-weight:bold;	
+    font-size:30px;
+}
+
+.Menu{
+    background-color:#EBCA82;
+    position:absolute;
+    width:100px;
+    border:2px outset #EBCA82;
+    FONT-FAMILY: Verdana,Arial,Helvetica;
+    font-weight:bold;
+    line-height:20px;
+    cursor:default;
+    font-size:14px;
+    z-index:100;
+    visibility:hidden;
+}
+
+.menuitems{
+    padding-left:10px;
+    padding-right:10px;
+}
